@@ -159,9 +159,7 @@ DELETE /api/leads/:id
 ## Live Demo
 
 ```txt
-Frontend: <your-vercel-link>
-
-Backend: <your-render-link>
+https://sankar-group-lead-management-system.vercel.app/
 ```
 
 ---
