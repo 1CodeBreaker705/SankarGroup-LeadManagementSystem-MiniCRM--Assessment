@@ -6,7 +6,14 @@ const pool=require("./db")
 
 const app=express()
 
-app.use(cors())
+app.use(cors({
+
+origin:[
+"http://localhost:5173",
+"https://sankar-group-lead-management-system.vercel.app"
+]
+
+}))
 app.use(express.json())
 
 const leadRoutes=require("./routes/leadRoutes")
