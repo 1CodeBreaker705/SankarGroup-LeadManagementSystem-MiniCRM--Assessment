@@ -75,7 +75,7 @@ PORT=5000
 
 ```bash
 git clone <your-repository-url>
-
+cd SankarGroup-LeadManagementSystem-MiniCRM--Assessment
 ```
 
 ---
