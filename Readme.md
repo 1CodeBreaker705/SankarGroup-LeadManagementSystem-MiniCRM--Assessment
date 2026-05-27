@@ -87,7 +87,7 @@ cd Backend
 
 npm install
 
-nodemon server.js
+npm run dev
 ```
 
 ---
