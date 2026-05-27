@@ -14,6 +14,7 @@ origin:[
 ]
 
 }))
+
 app.use(express.json())
 
 const leadRoutes=require("./routes/leadRoutes")
