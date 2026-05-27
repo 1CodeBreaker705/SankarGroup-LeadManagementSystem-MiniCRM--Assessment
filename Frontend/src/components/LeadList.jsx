@@ -71,7 +71,7 @@ return(
       <p>Status:
 
         <span
-        className={`ml-2 px-2 py-1 rounded text-white
+        className={`ml-2 px-2 rounded text-white
 
         ${lead.status==="Interested"
         ? "bg-blue-500"
@@ -103,7 +103,7 @@ return(
         </select>
 
 
-        <button onClick={()=> deleteLead(lead.id)} className="bg-red-500 hover:bg-red-600 transition text-white px-3 py-2 rounded">Delete</button>
+        <button onClick={()=> deleteLead(lead.id)} className="bg-red-500 hover:bg-red-600 transition text-white px-3 py-1 rounded">Delete</button>
 
         </div>
 
